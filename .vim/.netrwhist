@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/usr/share/archiso/configs/releng/airootfs/etc'
+let g:netrw_dirhist_5='/etc/iptables'
+let g:netrw_dirhist_4='/usr/share/archiso/configs/releng'
+let g:netrw_dirhist_3='/usr/share/dhclient'
+let g:netrw_dirhist_2='/usr/share/archiso/configs/releng'
+let g:netrw_dirhist_1='/usr/share/archiso/configs/baseline'
+let g:netrw_dirhist_0='/usr/share/archiso/configs/releng'
+let g:netrw_dirhist_9='/etc/X11'
+let g:netrw_dirhist_8='/etc/X11/xorg.conf.d'
+let g:netrw_dirhist_7='/etc/X11'

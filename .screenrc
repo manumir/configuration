@@ -2,7 +2,7 @@
 # turn off that annoying start up message
 startup_message off
  
-Turn the even more annoying whole-screen-flash-on-tab-complete "feature"
+# Turn the even more annoying whole-screen-flash-on-tab-complete "feature"
 vbell off
   
 # I use control+a for beginning-of-line, this remaps it to the tick/tilda key

@@ -1,0 +1,50 @@
+UXTerm*background:#333333
+UXTerm*foreground:#fafafa
+!XTerm*background:#2f0f0f
+!XTerm*foreground:#e3e3e3
+UXTerm*faceSize:11
+!UXTerm*vt100.faceName:xft:SourceCodePro-Black
+UXTerm*faceName:xft:DejaVuSansMono
+UXTerm*ScrollBar:true
+UXTerm*rightScrollBar:true
+!!!! COLORS
+! black
+*xterm*color0: #101010
+! red3
+*xterm*color1: #960050
+! gree3
+*xterm*color2: #66aa11
+! yellow3
+*xterm*color3: #f4df2c
+! darkblue
+*xterm*color4: #30309b
+! magenta3
+*xterm*color5: #7e40a5
+! cyan3
+*xterm*color6: #00f0f0
+! gray90
+*xterm*color7: #9999aa
+! gray50
+*xterm*color8: #303030
+! red
+*xterm*color9: #ff0090
+! green
+*xterm*color10: #80ff00
+! yellow
+*xterm*color11: #ffba68
+! light blue
+*xterm*color12: #8f8fff
+! light magenta
+*xterm*color13: #bb88dd
+! light cyan
+*xterm*color14: #4eb4fa
+! white
+*xterm*color15: #d0d0d0
+
+! copy and paste
+xterm*VT100.Translations: #override \
+  <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0) \n\
+  Ctrl <KeyPress> V: insert-selection(CLIPBOARD, CUT_BUFFER0, PRIMARY)
+
+! cursor blink
+*xterm*cursorBlink:true
