@@ -1,8 +1,11 @@
-UXTerm*background:#333333
+UXTerm*background:#222222
 UXTerm*foreground:#fafafa
 !XTerm*background:#2f0f0f
 !XTerm*foreground:#e3e3e3
+
+! font size
 UXTerm*faceSize:11
+
 !UXTerm*vt100.faceName:xft:SourceCodePro-Black
 UXTerm*faceName:xft:DejaVuSansMono
 UXTerm*ScrollBar:true
