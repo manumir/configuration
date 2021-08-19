@@ -21,11 +21,11 @@
 background = #222
 ;background = ${xrdb:background:#000}
 ;background = #0000
-;background-alt = #444
+background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 ;foreground = ${xrdb:foreground:#fff}
-;foreground-alt = #555
+foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -59,7 +59,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
 modules-left = i3
-modules-center = 
+modules-center = xwindow
 modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
