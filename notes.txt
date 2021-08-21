@@ -1,0 +1,2 @@
+# discovered dunst and libnotify/notify-send to send notifications on i3
+	# to use, have dunst start as i3 starts, i.e, add "exec dunst" to the i3 config file
