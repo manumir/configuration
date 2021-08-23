@@ -13,3 +13,5 @@ export PS1='\[\e[36m\]\u@\h:\[\e[33m\]\w\$ \[\e[0m\]'
 #export PS1='\u@\h:\[\e[33m\]\w\[\e[0m\]\$ '
 export EDITOR='vim'
 HISTSIZE=-1
+
+echo "hello from .bashrc"

@@ -1,15 +1,16 @@
-UXTerm*background:#222222
-UXTerm*foreground:#fafafa
+! uxterm* only englobes uxterm, as *xterm* englobes uxterm and xterm
+*xterm*background:#222222
+*xterm*foreground:#fafafa
 !XTerm*background:#2f0f0f
 !XTerm*foreground:#e3e3e3
 
 ! font size
-UXTerm*faceSize:11
+*xterm*faceSize:11
 
 !UXTerm*vt100.faceName:xft:SourceCodePro-Black
-UXTerm*faceName:xft:DejaVuSansMono
-UXTerm*ScrollBar:true
-UXTerm*rightScrollBar:true
+*xterm*faceName:xft:DejaVuSansMono
+*xterm*ScrollBar:true
+*xterm*rightScrollBar:true
 !!!! COLORS
 ! black
 *xterm*color0: #101010
@@ -47,7 +48,7 @@ UXTerm*rightScrollBar:true
 ! copy and paste
 xterm*VT100.Translations: #override \
   <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0) \n\
-  Ctrl <KeyPress> V: insert-selection(CLIPBOARD, CUT_BUFFER0, PRIMARY)
+  Ctrl Shift <KeyPress> V: insert-selection(CLIPBOARD, CUT_BUFFER0, PRIMARY)
 
 ! cursor blink
 *xterm*cursorBlink:true

@@ -59,7 +59,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
 modules-left = i3
-modules-center = xwindow
+modules-center = xwindow polypomo
 modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
@@ -424,3 +424,24 @@ margin-top = 5
 margin-bottom = 5
 
 ; vim:ft=dosini
+
+
+; In your bar configuration add
+;modules-right = <other-modules> polypomo <other-modules>
+
+; and add a polypomo module
+[module/polypomo]
+type = custom/script
+
+exec = $HOME/.config/polybar/polypomo
+tail = true
+
+label = %output%
+click-left = $HOME/.config/polybar/polypomo toggle
+click-right = $HOME/.config/polybar/polypomo end
+click-middle = $HOME/.config/polybar/polypomo lock
+scroll-up = $HOME/.config/polybar/polypomo time +60
+scroll-down = $HOME/.config/polybar/polypomo time -60
+
+font-0 = fixed:pixelsize=10;1
+font-1 = siji:scale=15:antialias=false;0

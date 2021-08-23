@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale $HOME/Downloads/m1_wallpaper.jpg
+feh --no-fehbg --bg-scale $HOME/configuration/m1_wallpaper.jpg
