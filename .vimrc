@@ -4,3 +4,4 @@ set shiftwidth=2
 set number
 set hlsearch
 colorscheme gruvbox
+set background=dark
