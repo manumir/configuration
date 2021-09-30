@@ -423,7 +423,6 @@ screenchange-reload = true
 margin-top = 5
 margin-bottom = 5
 
-; vim:ft=dosini
 
 
 ; In your bar configuration add
@@ -445,3 +444,5 @@ scroll-down = $HOME/.config/polybar/polypomo time -60
 
 font-0 = fixed:pixelsize=10;1
 font-1 = siji:scale=15:antialias=false;0
+
+; vim:ft=dosini
