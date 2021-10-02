@@ -4,6 +4,9 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
+echo "IF I DON'T HAVE SCROLL, I SHOULD PIPE THE OUTPUT INTO LESS"
+echo "LIKE THIS: ls /bin | less"
+
 # turn off the pc beep sound
 rmmod pcspkr
 
